@@ -4,19 +4,35 @@
 
 int main()
 {
-int res = 0
+int res = 0;
 int i;
 for(i=0; i < 11; i++)
 
 {
-    res=res + i;
+    res = res + i;
 }
-printf("solución 1 - el número es: %d\n", res);
+printf("Solución 1 - el número es: %d\n", res) ;
 
-res =0
-for(i=1 ; <= 10; i++)
+res = 0 ;
+for (i= 1 ; i<= 10; i++)
 {
-    res=res + i;
+    res = res + i;
 }
-printf("solución 2 - El número es; %d\n" , res)
-    return 0;
+printf("Solución 2 - El número es: %d\n" , res) ;
+
+res = 0;
+for(i= 0; i <= 10; i++)
+{
+    res = res + i;
+}
+printf("Solución 3 - El número es: %d\n" , res) ;
+
+res = 0;
+for(i= 1 ; i<= 11; i++)
+{
+    res = res + i;
+} 
+printf("Solución 4 - El número es: %d\n" , res) ;
+
+return 0;
+}
